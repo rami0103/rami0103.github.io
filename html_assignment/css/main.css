@@ -26,6 +26,7 @@ nav a:hover {
     coloR: #fcca46;
 } 
 
+/* Adds styling to the image. Values of box-shadow are: X-placement, Y-placement, blur and spread radius, followed by color */
 #my-image {
     box-shadow: 0px 0px 2px 1px #000000;
 } 
