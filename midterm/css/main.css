@@ -1,10 +1,77 @@
 body {
     background-color: #AAD4CF;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Aligns the body of the website to center by setting the margin to 0 and auto*/
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    padding: 1rem;
     background-color: #D4E9E7;
 }
 
+/* Sets the hero image size to maximum width of the div with class 'wrapper' to fit the image */
+#wide-starfish-image {
+    max-width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+
+
+/* Changes default style of links in the navigation */
+nav ul li a:link, nav ul li a:visited {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase
+}
+
+/* ARRANGES navigation to side-by-side */
+
+nav ul {
+    max-width: 100%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* LABELS */
+
+.contact-wrapper {
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 0 10px;
+}
+
+.text-input {
+    padding: 0.5rem;
+    display: block;
+}
+
+#fullname, #email, #message {
+    width: 100%;
+}
+
+/* Changes the default style of a button input */
+#submit-button {
+    display: block;
+    margin: 1rem 0;
+    background: none;
+    color: inherit;
+    border: 0.5 solid black;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: right;
+    padding: 1.5rem;
+}

@@ -12,15 +12,15 @@
     <!-- Container for the main content of the website that is centered -->
     <div class="wrapper">
         <header>
-            <img src="images/lone-starfish-wide.jpg" alt="photo of a starfish">
-            <h1>Lone Starfish</h1>
+            <img src="images/lone-starfish-wide.jpg" alt="photo of a starfish" id="wide-starfish-image">
+            <h1 class="centered-text">Lone Starfish</h1>
         </header>
         <!-- Navigation positioned side-to-side -->
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Story</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Story</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <!-- Primary content of the website -->
@@ -42,18 +42,18 @@
         </main>
         <!-- Contact input form -->
         <h3>Contact to learn more</h3>
-        <section class="contact_wrapper">
+        <section class="contact-wrapper">
             <form action="#" method="POST"></form>
             <!-- Name -->
-            <label for="fullname">Your Name</label>
+            <label for="fullname" class="text-input">Your Name</label>
             <input id="fullname" type="text" name="fullname">
 
             <!-- Email -->
-            <label for="email">Your Email address</label>
+            <label for="email" class="text-input">Your Email address</label>
             <input id="email" type="email" name="email">
 
             <!-- User's message -->
-            <label for="message">Your Message</label>
+            <label for="message" class="text-input">Your Message</label>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
             <h4>Would you like to visit the starfish?</h4>
@@ -67,9 +67,10 @@
             <!-- Maybe option -->
             <label for="maybe">Maybe</label>
             <input type="radio" id="maybe" name="maybe" value="maybe"> 
+            <input type="submit" value="Send" id="submit-button">
+
         </section>
         <footer>&copy; Lone Starfish</footer>
-
     </div>
 </body>
 </html>
