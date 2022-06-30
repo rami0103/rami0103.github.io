@@ -32,12 +32,13 @@ main, .contact-wrapper, footer{
     z-index: 1; /* Z-index allows elements to stack on top of each other. By giving the H1 tag a higher value, it is now 1 layer on top of all the elements, which by default has 0 value, therefore allowing it to be positioned over the image */
     position: absolute;
     margin: 0;
-    top: 40%;
+    top: 50%;
     left: 0;
     right: 0;
     text-align: center;
     color: white;
     opacity: 0.85;
+    font-size: 2.2rem;
 }
 
 /* NAVIGATION */
@@ -73,12 +74,13 @@ nav ul li a:link, nav ul li a:visited {
 
 /* IMAGE AND PARAGRAPH */
 
+/* Sets 'Life of Starfish' and 'Facts about Starfish' sections to occupy the maximum widt of the wrapper and sets margins at the bottom to give it more breathing room. */
 main article {
-    margin-bottom: 1.5rem;
     max-width: 100%;
+    margin-bottom: 1.5rem;
 }
 
-
+/* Set the image to only take up 40% of the size of the wrapper container since the original is too big. This rule set also floats the image to the left. */
 .small-starfish-image {
     max-width: 40%;
     float: left;
