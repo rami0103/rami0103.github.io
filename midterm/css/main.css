@@ -47,29 +47,38 @@ main, .contact-wrapper, footer{
 
 nav ul {
     max-width: 100%;
-    margin: 1rem 0;
+    margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    /* display: inline; */
-    overflow: hidden;
-    display: inline;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+    width: 28%;
+    text-align: center;
+    
 }
 
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    max-width: 33%;
+nav ul .nav-border {
+    border-right: 1px solid black;
+    margin: 0;
 }
 
 /* Changes default style of links in the navigation */
 
 nav ul li a:link, nav ul li a:visited {
     text-decoration: none;
-    list-style-type: none;
     color: black;
     text-transform: uppercase;
+}
+
+/* Creates microinteraction with user on hover. */
+nav ul li:hover {
+    background-color: #AAD4CF;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 /* IMAGE AND PARAGRAPH */
