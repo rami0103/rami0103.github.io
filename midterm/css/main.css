@@ -136,6 +136,13 @@ main article {
     border: 1px solid black;
     padding: 0.5rem;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+/* reates microinteraction with user on hover over the send button. The rule set above adds a delay in transition so it's not too sudden. */
+#submit-button:hover {
+    background-color: #28282B;
+    color: #fefefe;
 }
 
 footer {
