@@ -15,7 +15,7 @@ main, .contact-wrapper, footer{
     padding: 1rem;
 }
 
-/* HERO IMAGE WITH TEXT HEADING */
+/* HERO IMAGE WITH HEADING */
 
 .wrapper header {
     position: relative;
@@ -29,7 +29,7 @@ main, .contact-wrapper, footer{
 }
 
 .wrapper h1 {
-    z-index: 1; /* Z-index allows elements to stack on top of each other. By giving the H1 tag a higher value, it is now 1 layer on top of all the elements, which by default has 0 value, therefore allowing it to be positioned over the image */
+    z-index: 1; /* Z-index allows elements to stack on top of each other. By giving the H1 tag a higher value, it is now on top of all the elements, which by default has 0 value, therefore allowing it to be positioned over the image */
     position: absolute;
     margin: 0;
     top: 50%;
@@ -43,7 +43,7 @@ main, .contact-wrapper, footer{
 
 /* NAVIGATION */
 
-/* ARRANGES navigation to side-by-side */
+/* Arranges navigation to side-by-side */
 
 nav ul {
     max-width: 100%;
@@ -58,11 +58,10 @@ nav ul li {
     padding: 1rem;
     width: 28%;
     text-align: center;
-    
 }
 
 nav ul .nav-border {
-    border-right: 1px solid black;
+    border-right: 0.5px solid black;
     margin: 0;
 }
 
@@ -72,24 +71,25 @@ nav ul li a:link, nav ul li a:visited {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    
 }
 
-/* Creates microinteraction with user on hover. */
+/* Creates microinteraction with user on hover */
+
 nav ul li:hover {
-    background-color: #AAD4CF;
-    color: #ffffff;
+    text-decoration: underline;
     cursor: pointer;
 }
 
 /* IMAGE AND PARAGRAPH */
 
-/* Sets 'Life of Starfish' and 'Facts about Starfish' sections to occupy the maximum widt of the wrapper and sets margins at the bottom to give it more breathing room. */
+/* Sets 'Life of Starfish' and 'Facts about Starfish' sections to occupy the maximum width of the wrapper and sets margins at the bottom to give it more breathing room. */
 main article {
     max-width: 100%;
     margin-bottom: 1.5rem;
 }
 
-/* Sets the image to only take up 40% of the size of the wrapper container since the original is too big. This rule set also floats the image to the left. */
+/* Sets the image to only take up 40% of the size of the wrapper container since the original is too big. This rule set also floats the image to the left along with the paragraph. */
 .small-starfish-image {
     max-width: 40%;
     float: left;
@@ -119,7 +119,7 @@ main article {
 
 .text-input {
     padding: 0.5rem 0;
-    display: block;
+    display: block; /* Form labels are inline elements by default, changing the display to block allows the elements to take up the entire horizontal space of the parent element */
 }
 
 /* In addition to the padding, the rule set below sets the input field and textarea to take up the whole width of the wrapper */
