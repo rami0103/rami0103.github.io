@@ -24,7 +24,6 @@ main, .contact-wrapper, footer{
 
 /* Sets the hero image size to maximum width of the div with class 'wrapper' to fit the image */
 #wide-starfish-image {
-    /* position: absolute; */
     max-width: 100%;
     position: relative;
 }
@@ -38,40 +37,69 @@ main, .contact-wrapper, footer{
     right: 0;
     text-align: center;
     color: white;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 /* NAVIGATION */
-
-/* Changes default style of links in the navigation */
-nav ul li a:link, nav ul li a:visited {
-    text-decoration: none;
-    color: inherit;
-    text-transform: uppercase
-}
 
 /* ARRANGES navigation to side-by-side */
 
 nav ul {
     max-width: 100%;
+    margin: 1rem 0;
+    padding: 0;
 }
 
 nav ul li {
+    /* display: inline; */
+    overflow: hidden;
     display: inline;
 }
 
 nav ul li a {
     display: inline-block;
     padding: 20px;
+    max-width: 33%;
 }
 
-/* PARAGRAPH */
+/* Changes default style of links in the navigation */
+
+nav ul li a:link, nav ul li a:visited {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* IMAGE AND PARAGRAPH */
+
+main article {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
 
 
+.small-starfish-image {
+    max-width: 40%;
+    float: left;
+    margin-right: 1rem;
+}
 
-/* LABELS */
+.clear-fix {
+    clear: both;
+}
+
+/* CONTACT FORM */
 
 .contact-wrapper {
+    padding: 0;
+}
+
+.contact-wrapper h3 {
+    padding-left: 1rem;
+}
+
+.form-wrapper {
     border: 1px solid black;
     padding: 2rem;
     margin: 0 10px;
