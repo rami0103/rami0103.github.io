@@ -80,7 +80,7 @@ main article {
     margin-bottom: 1.5rem;
 }
 
-/* Set the image to only take up 40% of the size of the wrapper container since the original is too big. This rule set also floats the image to the left. */
+/* Sets the image to only take up 40% of the size of the wrapper container since the original is too big. This rule set also floats the image to the left. */
 .small-starfish-image {
     max-width: 40%;
     float: left;
