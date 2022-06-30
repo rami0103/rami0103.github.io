@@ -113,6 +113,7 @@ main article {
     display: block;
 }
 
+/* In addition to the padding, the rule set below sets the input field and textarea to take up the whole width of the wrapper */
 #fullname, #email, #message {
     width: 100%;
 }
