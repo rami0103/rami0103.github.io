@@ -101,6 +101,7 @@ main article {
     padding-left: 1rem;
 }
 
+/* Separates the contact portion from the rest of the content by placing a solid border line for disctintion */
 .form-wrapper {
     border: 1px solid black;
     padding: 2rem;
