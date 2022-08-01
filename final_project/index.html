@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Final Project by rami0103</title>
+    <script src="https://kit.fontawesome.com/aaba68b971.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="home-page-container">
+        <!-- Container for header with navigation and section with Welcome to Three Star media -->
+        <div class="top-container"> <!-- Start of top-container div-->
+            <!-- Parent of logo, navigation and search. Flex will be used to diplay elements side-by-side -->
+            <header class="flex">
+                <a href="#"><img src="images/logo.png" alt="Photo of logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <input type="text" placeholder="Search..">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </header>
+            <!-- Section with main banner and opaque signs "Welcome to Three Star Media" -->
+            <div class="main-banner">
+                <img src="images/main-banner.jpg" alt="Office space">
+                <article>
+                    <h2>Welcome to Three Star Media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto reiciendis veniam, ab consectetur magnam consequuntur dolorem mollitia dicta, quam quibusdam ea temporibus saepe atque consequatur accusantium expedita vitae maxime!</p>
+                    <button type="button">Connect with us<span><i class="fa-solid fa-caret-right"></i></span></button>
+                </article>
+            </div>
+        </div> <!-- End of top-container -->
+        <main class="main-container"> <!-- Main container to house the unique content and the central topic of the page -->
+            <div class="about-container"> <!-- Start of About Us container-->
+                <article>
+                    <img src="images/about-us.jpg" alt="Photo of ping pong table">
+                    <h1>About Us</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque odit id, provident vel possimus aut architecto quisquam velit? Magnam ut quo saepe quasi placeat alias provident illum odit earum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio modi quod fugiat! Vel ducimus beatae eum dolor ratione qui eaque quod illo nam itaque earum eligendi, numquam quibusdam excepturi.</p>
+                </article>
+            </div> <!-- End of About Us container-->
+            <div class="services-container"> <!-- Start of Services container -->
+                <!-- Display of Grid could be used in the Desktop version -->
+                <article>
+                    <h2>Our Services</h2>
+                    <section> 
+                        <img src="images/digital.jpg" alt="Person holding a phone in front of a latop">
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    </section>
+                    <section> 
+                        <img src="images/marketing.jpg" alt="Person holding a phone in front of a latop">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    </section>                
+                    <section> 
+                        <img src="images/video.jpg" alt="Person holding a phone in front of a latop">
+                        <h3>Video Production</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    </section>
+                    <section> 
+                        <img src="images/web.jpg" alt="Person holding a phone in front of a latop">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    </section>
+                    <section> 
+                        <img src="images/print.jpg" alt="Person holding a phone in front of a latop">
+                        <h3>Print</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    </section>                                        
+                </article>
+            </div> <!-- End of Services container-->
+        </main>
 
+        <!-- Our Vision section - background image taking up the entire width so it's not within the class with 0 auto -->
+        
+        <!-- Footer is taking up full width -->
+        <footer>
+            <p>&copy; Copyright Three Start Media, 2020</p>
+            <p>All images are taken from <a href="https://unsplash.com/" class="link-unsplash">Unsplash</a></p>
+        </footer>
+    </div> <!-- End of home-page-container -->
 </body>
 </html>
