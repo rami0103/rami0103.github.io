@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Final Project by rami0103</title>
     <script src="https://kit.fontawesome.com/aaba68b971.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="home-page-container">
@@ -37,7 +38,7 @@
                 </article>
             </div>
         </div> <!-- END of top-container -->
-        <main class="main-container"> <!-- START of main container to house the unique content and the central topic of the page -->
+        <div class="main-container"> <!-- START of main container to house the unique content and the central topic of the page -->
             <div class="about-container"> <!-- START of About Us container-->
                 <article>
                     <img src="images/about-us.jpg" alt="Photo of ping pong table">
@@ -82,7 +83,7 @@
                     </section>                                        
                 </article>
             </div> <!-- END of Services container-->
-        </main> <!--END of main container-->
+        </div> <!--END of main container-->
         
         <!-- Our Vision section - background image taking up the entire width so it's not within the class with 0 auto -->
         <div class="vision-container"> <!-- START of vision container. Full width -->
@@ -93,10 +94,49 @@
                 <button type="button">Learn More<span><i class="fa-solid fa-caret-right"></i></span></button>
             </section>
         </div> 
-        
-        <main> <!--START of main container-->
 
-        </main> <!-- END of main container-->
+        <div class="main-container"> <!--RESTART of main container-->
+            <div class="team-container"> <!-- START of team container-->
+                <h2>Our Team</h2>
+                <section class="our-team"> 
+                    <img src="images/john.jpg" alt="Photo of CEO John Doe">
+                    <h3>John Doe</h3>
+                    <h5>CEO and Co-Founder</h5>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio rem voluptatibus delectus impedit aspernatur ad corrupti perferendis similique numquam mollitia, perspiciatis a animi nostrum ipsa, esse vitae aliquid consequatur?</p>
+                </section>
+                <section class="our-team">
+                    <img src="images/bob.jpg" alt="Photo of CFO Bob Rite">
+                    <h3>Bob Rite</h3>
+                    <h5>CFO and Co-Founder</h5>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio rem voluptatibus delectus impedit aspernatur ad corrupti perferendis similique numquam mollitia, perspiciatis a animi nostrum ipsa, esse vitae aliquid consequatur?</p>
+                </section>                   
+            </div> <!-- END of team container-->
+            <div class="contact-container"> <!-- START of contact container-->
+                <article>
+                    <h2>Contact Us</h2>
+                    <h3>Send us a message</h3>
+                    <form action="#" method="POST">
+                        <!-- Name -->
+                        <label for="fullname" class="text-input">Name</label>
+                        <input id="fullname" type="text" name="fullname">
+            
+                        <!-- Email -->
+                        <label for="email" class="text-input">Email address</label>
+                        <input id="email" type="email" name="email">
+            
+                        <!-- User's message -->
+                        <label for="message" class="text-input">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+            
+                        <!-- Submit button -->
+                        <input type="submit" value="Send" id="submit-button">
+                    </form>                    
+                </article>
+            </div> <!-- END of contact container-->
+        </div> <!-- END of main container-->
         
         <!-- Footer is taking up full width -->
         <footer>
