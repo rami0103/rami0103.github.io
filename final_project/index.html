@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="home-page-container">
+    <div class="main-container">
         <!-- Container for header with navigation and section with Welcome to Three Star media -->
         <div class="top-container"> <!-- START of top-container div-->
             <!-- Parent of logo, navigation and search. Flex will be used to diplay elements side-by-side -->
@@ -38,10 +38,10 @@
                 </article>
             </div>
         </div> <!-- END of top-container -->
-        <div class="main-container"> <!-- START of main container to house the unique content and the central topic of the page -->
+        <div class="body-container"> <!-- START of body container to house the content and the central topic of the page -->
             <div class="about-container"> <!-- START of About Us container-->
+                <img src="images/about-us.jpg" alt="Photo of ping pong table">
                 <article>
-                    <img src="images/about-us.jpg" alt="Photo of ping pong table">
                     <h1>About Us</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque odit id, provident vel possimus aut architecto quisquam velit? Magnam ut quo saepe quasi placeat alias provident illum odit earum.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio modi quod fugiat! Vel ducimus beatae eum dolor ratione qui eaque quod illo nam itaque earum eligendi, numquam quibusdam excepturi.</p>
@@ -49,39 +49,37 @@
             </div> <!-- END of About Us container-->
             <div class="services-container"> <!-- START of Services container -->
                 <!-- Display of Grid could be used in the Desktop version -->
-                <article>
-                    <h2>Our Services</h2>
-                    <section> 
-                        <img src="images/digital.jpg" alt="Person holding a phone in front of a latop">
-                        <h3>Digital Transformation</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                        <button type="button">Digital Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
-                    </section>
-                    <section> 
-                        <img src="images/marketing.jpg" alt="Person holding a phone in front of a latop">
-                        <h3>Marketing</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                        <button type="button">Marketing Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
-                    </section>                
-                    <section> 
-                        <img src="images/video.jpg" alt="Person holding a phone in front of a latop">
-                        <h3>Video Production</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                        <button type="button">Video Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
-                    </section>
-                    <section> 
-                        <img src="images/web.jpg" alt="Person holding a phone in front of a latop">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                        <button type="button">Web Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
-                    </section>
-                    <section> 
-                        <img src="images/print.jpg" alt="Person holding a phone in front of a latop">
-                        <h3>Print</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                        <button type="button">Print Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
-                    </section>                                        
-                </article>
+                <h2>Our Services</h2>
+                <section class="services-wrapper"> <!-- CSS: set width percentage on wrapper and make img width 100% of the wrapper-->
+                    <img src="images/digital.jpg" alt="Person holding a phone in front of a latop">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    <button type="button">Digital Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                </section>
+                <section class="services-wrapper"> 
+                    <img src="images/marketing.jpg" alt="Person holding a phone in front of a latop">
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    <button type="button">Marketing Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                </section>                
+                <section class="services-wrapper"> 
+                    <img src="images/video.jpg" alt="Person holding a phone in front of a latop">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    <button type="button">Video Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                </section>
+                <section class="services-wrapper"> 
+                    <img src="images/web.jpg" alt="Person holding a phone in front of a latop">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    <button type="button">Web Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                </section>
+                <section class="services-wrapper"> 
+                    <img src="images/print.jpg" alt="Person holding a phone in front of a latop">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                    <button type="button">Print Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                </section>   
             </div> <!-- END of Services container-->
         </div> <!--END of main container-->
         
@@ -95,7 +93,7 @@
             </section>
         </div> 
 
-        <div class="main-container"> <!--RESTART of main container-->
+        <div class="body-container"> <!--RESTART of main container-->
             <div class="team-container"> <!-- START of team container-->
                 <h2>Our Team</h2>
                 <img src="images/john.jpg" alt="Photo of CEO John Doe">                
@@ -168,6 +166,6 @@
             <p>&copy; Copyright Three Start Media, 2020</p>
             <p>All images are taken from <a href="https://unsplash.com/" class="link-unsplash">Unsplash</a></p>
         </footer>
-    </div> <!-- End of home-page-container -->
+    </div> <!-- End of main-container -->
 </body>
 </html>
