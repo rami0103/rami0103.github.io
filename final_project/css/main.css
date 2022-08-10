@@ -264,7 +264,7 @@ h2 {
 
 .team-container {
     width: 90%;
-    margin: 2rem auto;
+    margin: 2.5rem auto;
 }
 
 .team-container img {
@@ -301,6 +301,65 @@ h2 {
     line-height: 1.5rem;
     padding: 1rem 0.5rem;
 }
+
+/* CONTACT */
+.contact-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.contact-wrapper {
+    width: 100%;
+}
+
+.contact-wrapper h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contact-wrapper h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem 0.7rem;
+}
+
+form {
+    width: 100%;
+}
+
+.contact-wrapper label{
+    display: block;
+    font-size: 1rem;
+    padding: 0.7rem;
+}
+
+.contact-wrapper input {
+    display: block;
+    margin-left: 0.7rem;
+    width: 95%;
+    height: 30px;
+}
+
+.contact-wrapper textarea {
+    display: block;
+    margin-left: 0.7rem;
+    width: 95%;
+}
+
+#submit-button {
+    width: 18%;
+    height: 20%;
+    background-color: #222; 
+    border: none;
+    color: #c78c06;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 1rem 0.7rem;
+
+}
+
+/* HOURS OF OPERATION */
 
 @media only screen and (min-width: 760px) {
     /* body {
