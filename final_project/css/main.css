@@ -361,6 +361,38 @@ form {
 
 /* HOURS OF OPERATION */
 
+.hours-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.hours-wrapper {
+    width: 100%;
+}
+
+.hours-wrapper h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.5rem 0.7rem;
+}
+
+table, thead, tbody, td, th {
+    border: 1px solid #222;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #FFE6AC;
+    text-align: center;
+}
+
+th, td {
+    padding: 1rem;
+}
+
 @media only screen and (min-width: 760px) {
     /* body {
         display: none;
