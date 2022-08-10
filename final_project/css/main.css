@@ -125,6 +125,7 @@ nav ul li:nth-child(1) {
 
 .about-container {
     background-color: #FFE6AC;
+    margin-bottom: 2rem;
 }
 
 .about-image {
@@ -156,7 +157,7 @@ nav ul li:nth-child(1) {
 }
 
 .paragraph-wrapper {
-    margin-bottom: 2rem;
+    padding-bottom: 0.8rem;
 }
 
 /* SERVICES */
@@ -257,6 +258,48 @@ h2 {
     font-size: 1rem;
     font-weight: 300;
     color: #fff;
+}
+
+/* TEAM */
+
+.team-container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.team-container img {
+    width: 100%;
+}
+
+.team-card {
+    margin: 2rem auto;
+}
+
+.team-section {
+    width: 100%;
+    background-color: #FFE6AC;
+}
+
+.team-section hr {
+    border: 1px solid #c78c06;
+    margin: 0.5rem;
+}
+
+.team-section h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 0.5rem;
+}
+
+.team-section h5 {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.team-section p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1rem 0.5rem;
 }
 
 @media only screen and (min-width: 760px) {
