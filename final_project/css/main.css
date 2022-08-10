@@ -5,6 +5,7 @@ body {
 
 .main-container {
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* NAVIGATION */
@@ -77,7 +78,7 @@ nav ul li:nth-child(1) {
     width: 100%;
 }
 
-/* Overlays text on top of image */
+/* Overlays text on top of image by using z-index */
 
 .welcome-section {
     background-color: rgba(34,34,34,0.7);
@@ -110,6 +111,7 @@ nav ul li:nth-child(1) {
     font-weight: 300;
 }
 
+/* Styles the icon */
 .fa-caret-right {
     margin: 0 0.5rem;
     padding: 0;
@@ -163,7 +165,8 @@ nav ul li:nth-child(1) {
 /* SERVICES */
 
 .services-container {
-    margin: 0 2rem;
+    width: 90%;
+    margin: 2.5rem auto;
 }
 
 /* Sets the width of the wrapper to 95% of the screen so it doesn't take up the whole space */
@@ -323,10 +326,12 @@ h2 {
     padding: 1.5rem 0.7rem;
 }
 
+/* Sets the form to the full width of the container, which is 95% of the viewport */
 form {
     width: 100%;
 }
 
+/* Displays the elements in the form edge-to-edge of the container */
 .contact-wrapper label{
     display: block;
     font-size: 1rem;
@@ -363,7 +368,7 @@ form {
 
 .hours-container {
     width: 95%;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 .hours-wrapper {
@@ -373,7 +378,7 @@ form {
 .hours-wrapper h2 {
     font-size: 2rem;
     font-weight: 600;
-    padding: 1.5rem 0.7rem;
+    margin: 2rem 0;
 }
 
 table, thead, tbody, td, th {
@@ -391,6 +396,44 @@ thead {
 
 th, td {
     padding: 1rem;
+}
+
+/* LOCATION */ 
+.location-container {
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.location-wrapper {
+    width: 100%;
+}
+
+.location-wrapper iframe {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.location-wrapper h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222;
+    padding: 1rem;
+}
+
+footer p {
+    color: #c78c06;
+    padding: 1rem;
+}
+
+footer p a {
+    text-decoration: underline;
+    color: #c78c06;
 }
 
 @media only screen and (min-width: 760px) {
