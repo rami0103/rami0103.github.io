@@ -109,6 +109,18 @@ nav ul li:nth-child(1) {
     padding: 1rem;
     font-size: 1rem;
     font-weight: 300;
+    transition: 0.5s;
+}
+
+/* Adds micro-interaction with user on mouse hover. */
+.connect-button:hover {
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    margin: 0 0 1.5rem 0.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 /* Styles the icon */
@@ -215,6 +227,18 @@ h2 {
     font-size: 1rem;
     font-weight: 300;
     color: #fff;
+    transition: 0.5s
+}
+
+/* Adds micro-interaction with user */
+.services-button:hover {
+    background-color: #fff;
+    border: none;
+    margin: 0 0 1.5rem 0.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222;
 }
 
 /* VISION */
@@ -261,6 +285,17 @@ h2 {
     font-size: 1rem;
     font-weight: 300;
     color: #fff;
+    transition: 0.5s;
+}
+
+.vision-button:hover {
+    background-color: rgba(199,140,6,0.7); /* This will give the button a little bit of transparency*/
+    border: 1px solid #c78c06;
+    margin: 2rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222;
 }
 
 /* TEAM */
@@ -361,7 +396,20 @@ form {
     display: inline-block;
     font-size: 1.2rem;
     margin: 1rem 0.7rem;
+    transition: 0.5s;
+}
 
+/* Adds micro-interaction on hover */
+#submit-button:hover {
+    width: 18%;
+    height: 20%;
+    background-color: #c78c06; 
+    border: none;
+    color: #222;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 1rem 0.7rem;
 }
 
 /* HOURS OF OPERATION */
