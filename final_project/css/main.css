@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #222;
 }
 
 .main-container {
@@ -74,7 +75,6 @@ nav ul li:nth-child(1) {
 
 .main-banner-image {
     width: 100%;
-    
 }
 
 /* Overlays text on top of image */
@@ -120,18 +120,22 @@ nav ul li:nth-child(1) {
 
 .body-container {
     width: 100%;
-    position: relative;
+    margin: 0 auto;
 }
 
 .about-container {
     background-color: #FFE6AC;
-    position: absolute;
 }
 
 .about-image {
-    width: 95%;
-    margin: 1.5rem auto;
+    width: 100%;
     display: block;
+    text-align: center;
+}
+
+.about-image img {
+    width: 95%;
+    margin-top: 1rem;
 }
 
 .about-container h1,p {
@@ -141,19 +145,67 @@ nav ul li:nth-child(1) {
 .about-container h1 {
     font-size: 3rem;
     font-weight: 600;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .about-container p {
     font-size: 1rem;
     font-weight: 400;
-    margin: 2rem 1rem;
+    margin: 2rem 1.5rem;
     line-height: 1.3rem;
+}
+
+.paragraph-wrapper {
+    margin-bottom: 2rem;
 }
 
 /* SERVICES */
 
+.services-container {
+    margin: 0 2rem;
+}
 
+.services-wrapper {
+    width: 95%;
+    margin: 1.5rem auto;
+}
+
+.services-wrapper img {
+    width: 100%;
+}
+
+.services-details {
+    width: 100%;
+    background-color: #FFE6AC;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.services-details h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.2rem 0.8rem;
+}
+
+.services-wrapper p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    padding: 1.2rem 0.8rem;
+}
+
+.services-button {
+    background-color: #222;
+    border: none;
+    margin: 0 0 1.5rem 0.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+}
 
 @media only screen and (min-width: 760px) {
     /* body {

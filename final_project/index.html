@@ -48,11 +48,15 @@
         </div> <!-- END of top-container -->
         <div class="body-container"> <!-- START of body container to house the content and the central topic of the page -->
             <div class="about-container"> <!-- START of About Us container-->
-                <img src="images/about-us.jpg" class="about-image" alt="Photo of ping pong table">
-                <section>
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="Photo of ping pong table">
+                </div>
+                <section class="about-section">
                     <h1>About Us</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque odit id, provident vel possimus aut architecto quisquam velit? Magnam ut quo saepe quasi placeat alias provident illum odit earum.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio modi quod fugiat! Vel ducimus beatae eum dolor ratione qui eaque quod illo nam itaque earum eligendi, numquam quibusdam excepturi.</p>
+                    <div class="paragraph-wrapper">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque odit id, provident vel possimus aut architecto quisquam velit? Magnam ut quo saepe quasi placeat alias provident illum odit earum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio modi quod fugiat! Vel ducimus beatae eum dolor ratione qui eaque quod illo nam itaque earum eligendi, numquam quibusdam excepturi.</p>
+                    </div>
                 </section>
             </div> <!-- END of About Us container-->
             <div class="services-container"> <!-- START of Services container -->
@@ -60,33 +64,43 @@
                 <h2>Our Services</h2>
                 <section class="services-wrapper"> <!-- CSS: set width percentage on wrapper and make img width 100% of the wrapper-->
                     <img src="images/digital.jpg" alt="Person holding a phone in front of a latop">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                    <button type="button">Digital Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    <div class="services-details">
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                        <button type="button" class="services-button" >Digital Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    </div>
                 </section>
                 <section class="services-wrapper"> 
                     <img src="images/marketing.jpg" alt="Person holding a phone in front of a latop">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                    <button type="button">Marketing Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    <div class="services-details">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                        <button type="button" class="services-button" >Marketing Plans<span><i class="fa-solid fa-caret-right"></i></span></button>        
+                    </div>
                 </section>                
                 <section class="services-wrapper"> 
                     <img src="images/video.jpg" alt="Person holding a phone in front of a latop">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                    <button type="button">Video Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    <div class="services-details">
+                        <h3>Video Production</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                        <button type="button" class="services-button">Video Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    </div>
                 </section>
                 <section class="services-wrapper"> 
                     <img src="images/web.jpg" alt="Person holding a phone in front of a latop">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                    <button type="button">Web Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    <div class="services-details">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                        <button type="button" class="services-button">Web Plans<span><i class="fa-solid fa-caret-right"></i></span></button>        
+                    </div>
                 </section>
                 <section class="services-wrapper"> 
                     <img src="images/print.jpg" alt="Person holding a phone in front of a latop">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
-                    <button type="button">Print Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    <div class="services-details">
+                        <h3>Print</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint vero maxime laboriosam quisquam explicabo pariatur, necessitatibus culpa, saepe totam, incidunt eos sapiente vel ullam odit? Culpa saepe similique explicabo.</p>
+                        <button type="button" class="services-button">Print Plans<span><i class="fa-solid fa-caret-right"></i></span></button>
+                    </div>
                 </section>   
             </div> <!-- END of Services container-->
         </div> <!--END of main container-->
