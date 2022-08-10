@@ -165,14 +165,20 @@ nav ul li:nth-child(1) {
     margin: 0 2rem;
 }
 
+/* Sets the width of the wrapper to 95% of the screen so it doesn't take up the whole space */
 .services-wrapper {
     width: 95%;
     margin: 1.5rem auto;
 }
 
+/* Sets the image width to 100% of the wrapper which is 95% of the viewport */
+
 .services-wrapper img {
     width: 100%;
 }
+
+/* Sets the section with content to a width of 100% of the wrapper which is 95% of the viewport */
+/* Reusable classes are utilized to set the style for all the services cards */
 
 .services-details {
     width: 100%;
@@ -201,6 +207,52 @@ h2 {
     background-color: #222;
     border: none;
     margin: 0 0 1.5rem 0.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* VISION */
+
+/* Sets the container to the full width of the viewport which goes end-to-end of the screen */
+.vision-container {
+    width: 100%;
+    position: relative;
+}
+
+/* Sets the width of the image to take 100% of the width which will force it to go end-to-end */
+.vision-image {
+    width: 100%;
+}
+
+/* The content of the vision section will only take up 90% of the container */
+.vision-wrapper {
+    width: 90%;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vision-wrapper h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 1.5rem 0;
+}
+
+.vision-wrapper p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.vision-button {
+    background-color: rgba(34,34,34,0.7); /* This will give the button a little bit of transparency*/
+    border: 1px solid #c78c06;
+    margin: 2rem 0;
     padding: 1rem;
     font-size: 1rem;
     font-weight: 300;
