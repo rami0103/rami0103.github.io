@@ -64,6 +64,57 @@ nav ul li:nth-child(1) {
     border-color: #c78c06;
 }
 
+/* WELCOME TO THREE STAR MEDIA */
+
+.main-banner {
+    width: 100%;
+}
+
+.main-banner-image {
+    width: 100%;
+    position: absolute;
+}
+
+/* Overlays text on top of image */
+
+.welcome-section {
+    background-color: rgba(34,34,34,0.7);
+    position: relative;
+    z-index: 1;
+    min-height: 90%;
+    top: 25px;
+}
+
+.welcome-section h2,p {
+    color: #fff;
+    padding: 0.8rem;
+}
+
+.welcome-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.welcome-section p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+.connect-button {
+    background-color: #c78c06;
+    border: none;
+    margin: 0 0 1.5rem 0.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.fa-caret-right {
+    margin: 0 0.5rem;
+    padding: 0;
+    font-size: 1.7rem;
+}
+
 @media only screen and (min-width: 760px) {
 
 }
