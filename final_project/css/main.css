@@ -24,6 +24,10 @@ body {
     margin: 0 0.8rem;
 }
 
+.header-container {
+    padding-top: 1rem;
+}
+
 /* Removes default styling of navigation links and adds company colors */
 nav ul li a {
     text-decoration: none;
