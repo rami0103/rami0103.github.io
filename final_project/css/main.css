@@ -488,8 +488,64 @@ footer p a {
     color: #c78c06;
 }
 
+/* MEDIA QUERY */
+
 @media only screen and (min-width: 760px) {
-    /* body {
-        display: none;
-    } */
+
+    /* NAVIGATION */
+
+    .flex {
+        display: flex;
+    }
+
+    /* Adds orange background color to logo */
+
+    .logo {
+        background-color: #222;
+        margin: 0 0.8rem;
+    }
+
+    .header-container {
+        padding-top: 0;
+    }
+
+    /* Removes default styling of navigation links and adds company colors */
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    nav ul li:nth-child(1) {
+        background-color: #c78c06;
+        margin: 0;
+    }
+
+    .home {
+        color: #222;
+    }
+
+    /* Styles the search bar with the magnifying glass icon */
+    .search {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .search-bar {
+        width: 85%;
+        height: 35px;
+    }
+
+    .fa-magnifying-glass {
+        color: #c78c06;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #c78c06;
+    }
+
+    
 }
