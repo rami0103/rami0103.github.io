@@ -625,4 +625,55 @@ footer p a {
         padding: 0;
     }
 
+    /* SERVICES */
+
+    .services-container {
+        width: 85%;
+        margin: 2.5rem auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: max-content; /* Size of each row depends on the largest item in the row */
+    }
+
+    .services-wrapper {
+        width: 95%;
+        margin: 1.5rem 0;
+        padding: 0rem;
+    }
+    .services-wrapper img {
+        width: 100%;
+    }
+
+    .services-title {
+        grid-column: span 6;
+        grid-row: span 1;
+        margin: 1.5rem 0;
+    }
+
+    .digital-transformation {
+        grid-column: 1 / span 3;
+        grid-row: 2 / span 3;
+    }
+
+    .marketing {
+        grid-column: 4/ span 3;
+        grid-row: 2 / span 3;
+    }
+
+    .video-production {
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 3;
+    }    
+
+    .web-development {
+        grid-column: 3 / span 2;
+        grid-row: 5 / span 3;
+    }
+
+    .print {
+        grid-column: 5 / span 2;
+        grid-row: 5 / span 3;
+    }
+
+
 }
