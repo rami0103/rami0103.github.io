@@ -705,7 +705,7 @@ footer p a {
         display: flex;
     }
 
-    .team-card img {
+    .team-card img, .team-section {
         width: 50%;
     }
 
