@@ -700,13 +700,17 @@ footer p a {
         margin: 2.5rem auto;
     }
 
-    .team-container h2 {
-        margin-bottom: 2rem;    
-    }
-
     .team-card {
         margin: 0 auto;
         display: flex;
+    }
+
+    .team-card img {
+        width: 50%;
+    }
+
+    .team-container h2 {
+        margin-bottom: 2rem;    
     }
 
     .bob-rite {
