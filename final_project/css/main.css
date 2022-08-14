@@ -311,6 +311,7 @@ h2 {
 
 .team-container img {
     width: 100%;
+    object-fit: cover;
 }
 
 .team-card {
@@ -699,8 +700,12 @@ footer p a {
         margin: 2.5rem auto;
     }
 
+    .team-container h2 {
+        margin-bottom: 2rem;    
+    }
+
     .team-card {
-        margin: 2rem auto;
+        margin: 0 auto;
         display: flex;
     }
 
