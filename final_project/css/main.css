@@ -494,58 +494,46 @@ footer p a {
 
     /* NAVIGATION */
 
+    /* resuable class to display items side-by-side */
+
     .flex {
         display: flex;
     }
 
-    /* Adds orange background color to logo */
-
     .logo {
-        background-color: #222;
-        margin: 0 0.8rem;
+        margin-right: 2rem;
+    }
+
+    .home {
+        padding: 0 1.2rem;
     }
 
     .header-container {
-        padding-top: 0;
+        padding: 3rem;
+        justify-content: space-around;
     }
 
-    /* Removes default styling of navigation links and adds company colors */
+    nav ul {
+        align-items: center;
+        margin-top: 1rem;
+    }
 
     nav ul li {
         text-align: center;
         margin: 0;
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
-    nav ul li:nth-child(1) {
-        background-color: #c78c06;
-        margin: 0;
-    }
-
-    .home {
-        color: #222;
-    }
-
-    /* Styles the search bar with the magnifying glass icon */
     .search {
-        width: 80%;
-        margin: 0 auto;
-        padding: 1rem;
+        text-align: right;
+        margin: 0.7rem;
+        width: 25%;
     }
 
     .search-bar {
-        width: 85%;
-        height: 35px;
+        width: 80%
     }
 
-    .fa-magnifying-glass {
-        color: #c78c06;
-        padding: 0.5rem;
-        font-size: 1rem;
-        border-width: 1px;
-        border-style: solid;
-        border-color: #c78c06;
-    }
 
     
 }
