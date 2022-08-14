@@ -691,4 +691,45 @@ footer p a {
         object-fit: cover;
     }
 
+    /* TEAM */
+
+    .team-container {
+        width: 85%;
+        margin: 2.5rem auto;
+    }
+
+    .team-container img {
+        width: 100%;
+    }
+
+    .team-card {
+        margin: 2rem auto;
+        display: flex;
+    }
+
+    .bob-rite {
+        order: 1; /* Gave the image a higher order so it will be displayed after the text content */
+    }
+
+    .team-section hr {
+        margin: 1rem;
+    }
+    
+    .team-section h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 2rem 1rem;
+    }
+    
+    .team-section h5 {
+        font-size: 1rem;
+        padding-left: 1rem;
+        font-weight: 600;
+    }
+    
+    .team-section p {
+        line-height: 1.5rem;
+        padding: 1rem 1rem;
+    }
+
 }
