@@ -357,12 +357,13 @@ h2 {
 .contact-wrapper h2 {
     font-size: 3rem;
     font-weight: 600;
+    margin-bottom: 1.5rem;
 }
 
 .contact-wrapper h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 1.5rem 0.7rem;
+    padding: 2rem 0.7rem;
 }
 
 /* Sets the form to the full width of the container, which is 95% of the viewport */
@@ -427,10 +428,10 @@ form {
     width: 100%;
 }
 
-.hours-wrapper h2 {
-    font-size: 2rem;
+.hours-wrapper h3 {
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 2rem 0;
+    padding: 2rem 0.7rem;
 }
 
 table, thead, tbody, td, th {
@@ -465,10 +466,10 @@ th, td {
     margin: 0 auto;
 }
 
-.location-wrapper h2 {
-    font-size: 2rem;
+.location-wrapper h3 {
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 2rem 0;
+    padding: 6rem 0.7rem 1.2rem 0;
 }
 
 /* FOOTER */
@@ -698,17 +699,13 @@ footer p a {
         margin: 2.5rem auto;
     }
 
-    .team-container img {
-        width: 100%;
-    }
-
     .team-card {
         margin: 2rem auto;
         display: flex;
     }
 
     .bob-rite {
-        order: 1; /* Gave the image a higher order so it will be displayed after the text content */
+        order: 1; /* Gave the image of Bob Rite a higher order so it will be displayed after the text content */
     }
 
     .team-section hr {
@@ -730,6 +727,29 @@ footer p a {
     .team-section p {
         line-height: 1.5rem;
         padding: 1rem 1rem;
+    }
+
+    /* CONTACT, HOURS OF OPERATION AND LOCATION */
+
+    .grid-contact {
+        width: 88%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: max-content; 
+    }
+
+    .contact-container {
+        grid-column: 1 / span 3;
+    }
+
+    .location-container {
+        grid-column: 4 / span 6;
+    }
+
+    .hours-container {
+        order: 1; /* Gave 'Hours of Operation' a higher order to place it after location */
+        grid-column: 1 / span 6;
     }
 
 }
