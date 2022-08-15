@@ -4,7 +4,8 @@ body {
 }
 
 .main-container {
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto; /* Margin auto evely distributes the space on the left and right of the element, therefore centering the content */
     overflow: hidden;
 }
 
